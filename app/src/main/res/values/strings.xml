@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">weather</string>
     <string name="rain">its raining cats and dogs</string>
+    <string name="btn_update">Update</string>
 </resources>

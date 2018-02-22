@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nameCity">
+        <item> Москва</item>
+        <item> Питер</item>
+        <item> Йобург</item>
+        <item> Волгоград</item>
+    </string-array>
+    <string-array name="cityWeather">
+        <item> Снег и Сугробы -10</item>
+        <item> Морось ветер -2</item>
+        <item> Скорей всего холодно</item>
+        <item> снег лед. Ниже грязь -5</item>
+    </string-array>
+</resources>
