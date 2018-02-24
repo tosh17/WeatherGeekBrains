@@ -21,23 +21,64 @@
         android:id="@+id/btnUpdate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:text="@string/btn_update"
+        app:layout_constraintHorizontal_bias="0.945"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinnerCity" />
+
+    <Button
+        android:id="@+id/btnSendAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="@string/activity_main_btn_send_all_text"
+        app:layout_constraintEnd_toStartOf="@+id/btnUpdate"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnUpdate" />
 
     <TextView
         android:id="@+id/txtWeather"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnStartWithPM"
+        app:layout_constraintVertical_bias="0.26" />
+
+    <Button
+        android:id="@+id/btnChangeFon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/activity_main_btn_change_fon_text"
+        app:layout_constraintTop_toBottomOf="@+id/btnSendAll"
+         />
+
+    <Button
+        android:id="@+id/btnStartWithPM"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/activity_main_btn_start_with_pm_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnStartWithoutPM" />
+
+    <Button
+        android:id="@+id/btnStartWithoutPM"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnUpdate"
-        app:layout_constraintVertical_bias="0.18" />
+        android:text="@string/activity_main_btn_start_without_pm_text"
+
+        app:layout_constraintTop_toBottomOf="@+id/btnChangeFon" />
 
 </android.support.constraint.ConstraintLayout>

@@ -2,4 +2,13 @@
     <string name="app_name">weather</string>
     <string name="rain">its raining cats and dogs</string>
     <string name="btn_update">Update</string>
+    <string name="activity_main_btn_send_all_text">Поделится с друзьями</string>
+    <string name="activity_main_btn_change_fon_text">Сменить Цвет Текста</string>
+    <string name="title_activity_change_fon">ChangeFonActivity</string>
+    <string name="red">Красный</string>
+    <string name="blue">Синий</string>
+    <string name="green">Зеленый</string>
+    <string name="orange">Оранжевый</string>
+    <string name="activity_main_btn_start_without_pm_text">Запуск не существующей активности без обработки</string>
+    <string name="activity_main_btn_start_with_pm_text">Запуск не существующей активности с обработкой</string>
 </resources>
